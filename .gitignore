@@ -1,0 +1,29 @@
+# Ignore system files and directories
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+/.venv/
+
+# Ignore IDE and text editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore dependency files and directories
+node_modules/
+dist/
+build/
+*.egg-info/
+*.egg/
+*.log
+
+# Ignore environment-specific configuration files
+.env
